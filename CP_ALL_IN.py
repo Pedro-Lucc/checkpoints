@@ -27,8 +27,8 @@ print(dicionario)
 
 
 # INPUT PARA EVIAR O E-MAIL JUNTO DA SENHA
-email = 'luc.pedro.lea@outlook.com'
-password = 'senha123'
+email = '<email>'
+password = '<pass>'
 
 
 def send_email(email, password):
@@ -52,8 +52,8 @@ send_email(email, password)
 
 
 
-connection = 'mongodb+srv://fiapuser:senha123@rm96036.ezuf3fx.mongodb.net/test'
+connection = '<link para conexão>'
 client = MongoClient(connection)
-db = client.cp4
-collection = db.rm96036
+db = client.<"client">
+collection = db.<"colection">
 collection.insert_one(dicionario)
